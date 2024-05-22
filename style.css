@@ -1,0 +1,62 @@
+#gamezone{
+        background-color: rgb(255, 187, 0);
+        height: 350px;
+        width: 650px;
+        border: 1px solid;
+        text-align: center;
+        margin: 20px auto;
+}
+.character{
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+    border-radius: 5px;
+
+    background-image: url(https://desu.shikimori.one/uploads/poster/characters/246/main_2x-ac9312226b57722995dbf81e8265ebd0.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.visible{
+    display: block;
+}
+
+.baton{
+    height: 70px;
+    width: 180px;
+border-radius: 10px;
+background-color: white;
+}
+
+.baton:hover{
+    background-color: rgb(255, 187, 0);
+}
+
+body{
+    background-image: url(https://rampaga.ru/_sf/294/16459861.jpg);
+    background-size: 100%;
+    text-align: center;
+    /* justify-content: center;
+    display: flex; */
+padding: 120px;
+}
+.saitama{
+    background-image:url("./Saitama.webp") ;
+    background-size:cover ;
+    background-position:center ;
+}
+.character:hover{
+    scale: 1.1;
+}
+#itog{
+color: rgb(255, 187, 0);
+font-size: 40px;
+text-shadow:  2px  2px 2px black;
+}
