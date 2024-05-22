@@ -27,7 +27,7 @@ function gameloop(){
     gamezone.children[randomnum -1 ].onclick = function(){score += 1 ; document.getElementById("itog").innerHTML = "БАЛЛЫ: " + score;}
     gamezone.children[randomnum -1].innerHTML = "";
     gamezone.children[randomnum -1].className = classToset + " saitama";
-    if ( count < 15 ){
+    if ( count < 14 ){
         setTimeout(gameloop, personVis ? 1000 : 3000);
     }
     else { 
