@@ -32,7 +32,7 @@ function gameloop(){
     }
     else { 
     alert("Игра окончена");
-    alert("Твой счет" + score);
+    alert("Твой счет " + score);
     }    
     count++; 
 
